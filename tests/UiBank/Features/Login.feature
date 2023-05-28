@@ -1,4 +1,5 @@
 Feature: Login
+    As a user, I want log in into UiBank, so that I can access my accounts
 
     Scenario: Successful login
         Given I am on the login page
