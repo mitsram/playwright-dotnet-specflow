@@ -41,9 +41,9 @@ dotnet test
 ## Project Structure
 The project structure is organized as follows:
 
-* **Hooks/** directory: Contains hooks or event handlers that allow you to run code at specific points during the test execution lifecycle. These hooks provide a way to perform actions such as setting up preconditions before the tests start, performing cleanup after each test, or executing code before and after the entire test suite.
-* **Features/** directory: Contains SpecFlow feature files written in the Gherkin language. Each feature file describes a test scenario or a set of related scenarios.
-* **Steps/** directory: Contains SpecFlow step definition files. Each step definition maps to a step in the feature files and contains the automation logic using Playwright.
+* `Hooks/` directory: Contains hooks or event handlers that allow you to run code at specific points during the test execution lifecycle. These hooks provide a way to perform actions such as setting up preconditions before the tests start, performing cleanup after each test, or executing code before and after the entire test suite.
+* `Features/` directory: Contains SpecFlow feature files written in the Gherkin language. Each feature file describes a test scenario or a set of related scenarios.
+* `Steps/` directory: Contains SpecFlow step definition files. Each step definition maps to a step in the feature files and contains the automation logic using Playwright.
 
 
 ## Writing Tests
