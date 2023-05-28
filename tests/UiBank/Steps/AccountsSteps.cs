@@ -16,7 +16,7 @@ public sealed class AccountsSteps
         _accountsPage = new AccountsPage(_driver.Page);
     }
 
-    [Then("I should see my account dashboard")]
+    [Then("I should see my accounts dashboard")]
     public async Task ThenIShouldSeeMyAccountDashboard()
     {
         var isPageLoaded = await _accountsPage.IsPageLoaded();

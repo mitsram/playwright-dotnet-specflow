@@ -7,7 +7,7 @@ Before running the tests in this project, make sure you have the following prere
 
 * .NET Core SDK (version 6.0 or higher)
 * SpecFlow (version 3 or higher)
-* Playwright for .NET (version 1.32 or higher)
+* Playwright for .NET (version 1.3x or higher)
 
 ## Getting Started
 To get started with this project, follow these steps:
@@ -24,7 +24,13 @@ cd playwright-dotnet-specflow
 ```
 dotnet restore
 ```
-4. Run the tests:
+4. Set your `.env` file located at the same folder with the solution file. Example values:
+```
+USERNAME=<your registered UiBank username>
+PASSWORD=<your registered UiBank password>
+```
+
+5. Run the tests:
 ```
 dotnet test
 ```

@@ -89,3 +89,4 @@ Assets/AssetStoreTools*
 *.Cache
 ClientBin/
 [Tt]est[Rr]esult*/
+.env
