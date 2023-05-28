@@ -49,8 +49,8 @@ The project structure is organized as follows:
 ## Writing Tests
 To write tests using Playwright and SpecFlow, follow these guidelines:
 
-1. Create a new feature file in the **Features/** directory or add your scenarios to an existing feature file. Write your scenarios in the Gherkin language, describing the expected behavior of the application.
-2. Define step definitions for your scenarios in the **Steps/** directory. Each step definition maps to a step in the feature file. Use Playwright's API to interact with the browser and perform actions like navigating to pages, filling forms, clicking buttons, etc.
+1. Create a new feature file in the `Features/` directory or add your scenarios to an existing feature file. Write your scenarios in the Gherkin language, describing the expected behavior of the application.
+2. Define step definitions for your scenarios in the `Steps/` directory. Each step definition maps to a step in the feature file. Use Playwright's API to interact with the browser and perform actions like navigating to pages, filling forms, clicking buttons, etc.
 3. Implement the automation logic in the step definition methods. You can utilize Playwright's selectors and methods to locate elements on the page and interact with them.
 4. Run the tests using the `dotnet test` command. The tests will be executed, and the results will be displayed in the console.
 
