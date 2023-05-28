@@ -15,7 +15,6 @@ public class AccountsPage
     public async Task<Boolean> IsPageLoaded()
     {
         await _page.WaitForURLAsync("/accounts");
-        return await _btnApplyForNewAccount.IsVisibleAsync();
-        
+        return await _btnApplyForNewAccount.IsVisibleAsync();  
     }
 }

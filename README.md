@@ -24,7 +24,7 @@ cd playwright-dotnet-specflow
 ```
 dotnet restore
 ```
-4. Set your `.env` file located at the same folder with the solution file. Example values:
+4. Set your `.env` file at the root of the solution folder. Example values:
 ```
 USERNAME=<your registered UiBank username>
 PASSWORD=<your registered UiBank password>

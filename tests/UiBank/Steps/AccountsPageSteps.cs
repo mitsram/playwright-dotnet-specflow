@@ -5,12 +5,12 @@ using UiBank.Drivers;
 namespace UiBank.Steps;
 
 [Binding]
-public sealed class AccountsSteps
+public sealed class AccountsPageSteps
 {
     private readonly Driver _driver;
     private readonly AccountsPage _accountsPage;
 
-    public AccountsSteps(Driver driver)
+    public AccountsPageSteps(Driver driver)
     {
         _driver = driver;
         _accountsPage = new AccountsPage(_driver.Page);

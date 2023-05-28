@@ -1,6 +1,5 @@
 using TechTalk.SpecFlow;
 using UiBank.Drivers;
-using dotenv.net;
 
 namespace UiBank.Steps;
 
@@ -14,10 +13,6 @@ public sealed class LoginSteps
     {        
         _driver = driver;
         _loginPage = new LoginPage(_driver.Page);
-
-        string solutionRoot = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "../../../../../"));
-        string envFilePath = Path.Combine(solutionRoot, ".env");
-        DotEnv.Load(options: new DotEnvOptions(ignoreExceptions: false, envFilePaths: new[] {envFilePath}));
     }
 
     [Given("I am on the login page")]
