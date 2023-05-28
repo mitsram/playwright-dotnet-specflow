@@ -1,0 +1,91 @@
+# .NET Core Build Output
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Visual Studio Code files
+.vscode/
+.settings/
+
+# NuGet Packages
+*.nuget.props
+*.nuget.targets
+**/*.nuget.props
+**/*.nuget.targets
+
+# Test Results
+TestResults/
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+AnyCPU/
+*.cache
+*.log
+*.vspscc
+*.vssscc
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+publish/
+testresults/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*.swp
+*.user
+*.suo
+*.cache
+*.sln.docstates
+*_ReSharper.*
+*.[Rr]e[Ss]harper
+*.dotCover
+*.opendb
+*.closedb
+*.sln.DotSettings.user
+*.dotSettings.user
+
+# Roslyn cache directories
+*.ide/
+*.ids/
+
+# Unity generated folders
+Library/
+Temp/
+TempExport/
+Build/
+Builds/
+Assets/AssetStoreTools*
+
+# Rider generated files
+.idea/
+*.sln.iml
+
+# Others
+*.Cache
+ClientBin/
+[Tt]est[Rr]esult*/

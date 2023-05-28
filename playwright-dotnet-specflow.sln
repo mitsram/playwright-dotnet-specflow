@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3DA42819-67AB-44C1-BC07-2BA170555CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiBank", "tests\UiBank\UiBank.csproj", "{F617D2B3-B4E2-47DC-9DD1-B539FA9E4FBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F617D2B3-B4E2-47DC-9DD1-B539FA9E4FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F617D2B3-B4E2-47DC-9DD1-B539FA9E4FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F617D2B3-B4E2-47DC-9DD1-B539FA9E4FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F617D2B3-B4E2-47DC-9DD1-B539FA9E4FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F617D2B3-B4E2-47DC-9DD1-B539FA9E4FBD} = {3DA42819-67AB-44C1-BC07-2BA170555CF1}
+	EndGlobalSection
+EndGlobal
