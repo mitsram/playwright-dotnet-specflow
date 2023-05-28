@@ -14,5 +14,6 @@
     <PackageReference Include="SpecFlow" Version="3.9.74"/>
     <PackageReference Include="SpecFlow.NUnit" Version="3.9.74"/>
     <PackageReference Include="Microsoft.Playwright" Version="1.34.0"/>
+    <PackageReference Include="FluentAssertions" Version="6.11.0"/>
   </ItemGroup>
 </Project>
