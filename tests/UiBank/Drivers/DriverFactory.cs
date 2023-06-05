@@ -5,6 +5,7 @@ namespace UiBank.Drivers;
 public class DriverFactory
 {
     private readonly BrowserType _browserType;
+    
     public DriverFactory(BrowserType browserType)
     {
         _browserType = browserType;

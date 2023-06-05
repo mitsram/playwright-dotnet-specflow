@@ -12,6 +12,7 @@ public class Driver: IDisposable
     {
         _page = InitializePlaywright();
     }
+    
     public async Task<IPage> InitializePlaywright()
     { 
         var factory = new DriverFactory(GetBrowserTypeFromEnv());
